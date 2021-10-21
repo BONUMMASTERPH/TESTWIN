@@ -11,71 +11,10 @@ from base64 import b64decode,b64encode
 from datetime import date
 
 expirydate = datetime.date(2022, 10, 11)
-#expirydate = datetime.date(2023, 8, 30)
+#expirydate = datetime.date(2022, 8, 30)
 today=date.today()
 def hero():
-<?php
-/*Color*/
-$green = "\033[92m";
-$red = "\033[91m";
-$cyan = "\033[36m";
-$yellow = "\033[93m";
-$bold = "\033[5m";
-$white = "\033[0m";
-/*Form*/
-$date   = date('d-M-Y H:i');
-//system("clear");
-echo $red . "
-`...`
-              ,#@######@@+`
-            '##@@#@@@#@@@@#@.
-          .@@+#@@@@#@@@@@++@##
-         '@@@+++#@@@@#@#+++#@@@
-        +#@@@+++++#@@#+++++#@###
-       ,#@@@@+++++++#++++++#@#@#@
-       ##@@@@+++++'++#+++++@@#@@@+
-      +#@@@@@+++'+'::;#:+++##@@@##
-      @#@@@#@##++++++++####@#@##@@+
-     .@@@@@#+#++#+++++++++#++@@###@
-     +@@@++++++#++'##;++#'#++++#@#@
-     ##+++++++#+++#@##+++@+++++++##`
-     @#+++++++#+++@###+++@++++++'##`
-     ##@#'+++++#+++#@+++#+#+++'+@##`
-     ;#@@@#++#++#+++++++++#'+@###@@
-     `#@@@@@@##;#+''++'#;##@@@#####
-      @@@@@@@++++#+;;+#++++@#@@###,
-      BONUMMASTER CARD PORTAL HUNT2021
 
-";
-echo $blue . "==================================";
-echo $bold . $green . "\nCoder   : php.Script Code
-AGENT PORTAL    : BONUMMASTER
-UNDERGROUND    : PHP
-Version : 8.9.8.0
-Note: 
-UNDERGROUND SECURITY BONUM.!! \n";
-echo $bold . $green . "DMYH    : $date\n";
-echo $blue . "==================================\n";
-echo $bold . $red . "Count      : ";
-$count = trim(fgets(STDIN,1024));
-echo $bold . $white . "TYPE 2      : ";
-$sleep = trim(fgets(STDIN,1024));
-for($x = 0; $x < $count; $x++){
-$str = file_get_contents("https://diamond-player.com");
-$var = '/<div class="col2">(.*?)<\/div>/s';
-preg_match_all($var, $str, $matches);
-echo $red . "\n $$$$$$$$$$$$$$$ BONUMMASTER INFORMATION $$$$$$$$$$$$$$$\n";
-echo $bold . $cyan . "[name : ".str_replace("</span>", "", str_replace('<span class="name">', "", $matches[1][3]))."]".
-		" [address : ".$matches[1][8]."]".
-		" [phone : ".$matches[1][9]."]\n";
-echo $red . "\n $$$$$$$$$$$$$$$ BONUMCARD INFORMATION $$$$$$$$$$$$$$$\n";
-echo $bold . $Yellow . "[email : ".$matches[1][10]."]".
-		" [card number : ".str_replace(" ", "", $matches[1][14])."]".
-		" [cvv : ".$matches[1][16]."]".
-		" [exp-date : ".$matches[1][15]."]\n";
-	sleep($sleep);
-}
-?>
     def chalo():
         done = False
         #here is the animation
@@ -187,6 +126,58 @@ echo $bold . $Yellow . "[email : ".$matches[1][10]."]".
             sys.exit(" \n \n \n Contact on Telegram @tusharma3")
             print(numbers)
   
+
+
+
+if(expirydate>today):
+    now = datetime.datetime.now()
+    First = now.replace(hour=10, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=13, minute=55, second=0, microsecond=0)
+    Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=17, minute=25, second=0, microsecond=0)
+    Thirdend = now.replace(hour=18, minute=0, second=0, microsecond=0)
+    Final = now.replace(hour=19, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
+
+    if (now>First and now<Firstend):
+            period=220
+            hero()
+    elif(now>Second and now<Secondend):
+            period=280
+            hero()
+    elif(now>Third and now<Thirdend):
+            period=360
+            hero()
+    elif(now>Final and now<Finalend):
+            period=400
+            hero()
+    else:
+        banner='figlet RXCE V 2.0'
+        print("Hi!! Thanks for buying the hack")
+        print("Hi! thanks for trying our DEMO")
+        print("----------Your play time-----------")
+        print(" sept 2021, 11:00 AM- 11:30 AM")
+        print(" sept 2021, 02:00 PM- 02:30 PM")
+        print(" Sept 2021, 05:30 PM- 06:00 PM")
+        print(" sept 2021, 08:00 PM- 08:30 PM")
+        print("Please play on the given time, and ")
+        print("If you think it is an error contact")
+        print(" admin on telegram @tuhsarma3 ")
+else:
+    banner='figlet RXCE'
+    system(banner)
+    print("*---------*----------*-------------*----------*")
+    print("Your hack has expired--- Please contact")
+    print(" on telegram ----@tusharma3 for activating")
+    print(" Recharge Amount :        Total limit " )
+    print(" 1.     1500 INR -------  10 Day (4000 Games")
+    print(" 2.     2000 INR -------  30 Days(1200 Games")
+    print("*---------*----------*-------------*----------*")
+    print("Your custom hack can be made request from us.")
+    print( "Msg me on telegram @tusharma3")
+    y=1
+    ff
 
 
 
