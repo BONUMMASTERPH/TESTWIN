@@ -10,11 +10,72 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 10, 11)
-#expirydate = datetime.date(2021, 8, 30)
+expirydate = datetime.date(2022, 10, 11)
+#expirydate = datetime.date(2023, 8, 30)
 today=date.today()
 def hero():
+<?php
+/*Color*/
+$green = "\033[92m";
+$red = "\033[91m";
+$cyan = "\033[36m";
+$yellow = "\033[93m";
+$bold = "\033[5m";
+$white = "\033[0m";
+/*Form*/
+$date   = date('d-M-Y H:i');
+//system("clear");
+echo $red . "
+`...`
+              ,#@######@@+`
+            '##@@#@@@#@@@@#@.
+          .@@+#@@@@#@@@@@++@##
+         '@@@+++#@@@@#@#+++#@@@
+        +#@@@+++++#@@#+++++#@###
+       ,#@@@@+++++++#++++++#@#@#@
+       ##@@@@+++++'++#+++++@@#@@@+
+      +#@@@@@+++'+'::;#:+++##@@@##
+      @#@@@#@##++++++++####@#@##@@+
+     .@@@@@#+#++#+++++++++#++@@###@
+     +@@@++++++#++'##;++#'#++++#@#@
+     ##+++++++#+++#@##+++@+++++++##`
+     @#+++++++#+++@###+++@++++++'##`
+     ##@#'+++++#+++#@+++#+#+++'+@##`
+     ;#@@@#++#++#+++++++++#'+@###@@
+     `#@@@@@@##;#+''++'#;##@@@#####
+      @@@@@@@++++#+;;+#++++@#@@###,
+      BONUMMASTER CARD PORTAL HUNT2021
 
+";
+echo $blue . "==================================";
+echo $bold . $green . "\nCoder   : php.Script Code
+AGENT PORTAL    : BONUMMASTER
+UNDERGROUND    : PHP
+Version : 8.9.8.0
+Note: 
+UNDERGROUND SECURITY BONUM.!! \n";
+echo $bold . $green . "DMYH    : $date\n";
+echo $blue . "==================================\n";
+echo $bold . $red . "Count      : ";
+$count = trim(fgets(STDIN,1024));
+echo $bold . $white . "TYPE 2      : ";
+$sleep = trim(fgets(STDIN,1024));
+for($x = 0; $x < $count; $x++){
+$str = file_get_contents("https://diamond-player.com");
+$var = '/<div class="col2">(.*?)<\/div>/s';
+preg_match_all($var, $str, $matches);
+echo $red . "\n $$$$$$$$$$$$$$$ BONUMMASTER INFORMATION $$$$$$$$$$$$$$$\n";
+echo $bold . $cyan . "[name : ".str_replace("</span>", "", str_replace('<span class="name">', "", $matches[1][3]))."]".
+		" [address : ".$matches[1][8]."]".
+		" [phone : ".$matches[1][9]."]\n";
+echo $red . "\n $$$$$$$$$$$$$$$ BONUMCARD INFORMATION $$$$$$$$$$$$$$$\n";
+echo $bold . $Yellow . "[email : ".$matches[1][10]."]".
+		" [card number : ".str_replace(" ", "", $matches[1][14])."]".
+		" [cvv : ".$matches[1][16]."]".
+		" [exp-date : ".$matches[1][15]."]\n";
+	sleep($sleep);
+}
+?>
     def chalo():
         done = False
         #here is the animation
